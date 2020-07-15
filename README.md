@@ -1,5 +1,5 @@
 # Uranus
-# Checkout
+# Checkout - Page
 
 
 Checkout Summary
