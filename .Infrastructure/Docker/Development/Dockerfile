@@ -1,11 +1,11 @@
-FROM node
+FROM mhart/alpine-node:12
 
 # install dependencies
 WORKDIR /app
-COPY package.json ./
+COPY package.json package-lock.json ./
 RUN npm install
 
-FROM node
+FROM mhart/alpine-node
 
 WORKDIR /app
 COPY --from=0 /app .

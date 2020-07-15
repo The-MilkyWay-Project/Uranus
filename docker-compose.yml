@@ -1,0 +1,12 @@
+#Development
+version: '3'
+services:
+    uranus-development:
+        build:
+          context: .
+          dockerfile: .Infrastructure/Docker/Development/Dockerfile
+        ports:
+          - "5000:5000"
+        volumes:
+          - ./App:/app
+        command: npm run dev
