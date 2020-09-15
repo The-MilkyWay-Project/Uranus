@@ -1,4 +1,0 @@
-[submodule "Uranus-Core"]
-	path = Uranus-Core
-	url = git@github.com:JoshDanielWalker/Uranus-Core.git
-	branch = master
